@@ -1,0 +1,40 @@
+.login-container, .profile-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2, .profile-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input, .profile-container p {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container .error {
+  color: red;
+}
+
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+}
