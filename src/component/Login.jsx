@@ -46,7 +46,7 @@ const Login = () => {
       />
       <button onClick={handleLogin}>CONTINUE</button>
       {error && <p className="error">{error}</p>}
-      <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
+      <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
     </div>
   );
 };
